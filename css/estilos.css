@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ponomar&display=swap');
+
+body {
+
+    font-family: "Ponomar", system-ui;
+}
+
+.col-6 {
+    font-size: 20px;
+}
+
+#contacto {
+    background-image: url("../imagenes/fondo-contacto.png");
+
+    background-size: cover;
+
+
+    .CV{
+        background-color: #E20000;
+        padding: 7px;
+        border-radius: 12px;
+    }
+    .CV a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .CV:hover{
+
+        background-color: #f8f4f4;
+    }
+    h1 {
+        color: #E20000;
+        font-size: 50px;
+    }
+    .active{
+        border-radius: 18px;
+        border: #E20000 1px solid;
+        
+    }
+
+    .btn {
+        color: white;
+        background-color: #E20000;
+        border: 1px;
+    }
+
+    .btn:hover {
+        color: #E20000;
+        background-color: white;
+    }
+
+    p {
+        color: #6a6a6a;
+        font-size: 20px;
+    }
+
+    form {
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        background-color: white;
+    }
+
+    footer a {
+        color: #f8f4f4;
+    }
+
+    footer {
+        color: #f8f4f4;
+
+    }
+
+    footer a i {
+
+        font-size: 25px;
+        color: #E20000;
+        background-color: #f8f4f4;
+        border-radius: 80px;
+        text-align: center;
+        padding: 8px 0 0 0;
+        margin: 0 8px;
+        width: 38px;
+        height: 38px;
+    }
+
+
+    .logo {
+        position: fixed;
+        right: 50px;
+        bottom: 0px;
+        background-color: #f8f4f4;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+    .logo i {
+
+        color: #E20000;
+        font-size: 30px;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+}
+
+#proyectos {
+    background-image: url("../imagenes/fondo-proyectos.png");
+    background-size: cover;
+
+
+    .CV{
+        background-color: #E20000;
+        padding: 7px;
+        border-radius: 12px;
+    }
+    .CV a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .CV:hover{
+
+        background-color: #f8f4f4;
+    }
+
+    h1 {
+        color: #E20000;
+        font-size: 50px;
+    }
+
+    .active{
+        border-radius: 18px;
+        border: #E20000 1px solid;
+        
+    }
+
+
+    p {
+        color: #6a6a6a;
+        font-size: 20px;
+    }
+
+
+    .btn-rojo {
+        color: white;
+        background-color: rgb(125, 7, 7);
+        ;
+        border: 0px;
+        padding: 7px;
+        text-decoration: none;
+        border-radius: 15px;
+
+
+    }
+
+    .btn-rojo:hover {
+        color: rgb(125, 7, 7);
+        background-color: white;
+    }
+
+
+
+    .proyecto h2 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        background: rgb(125, 7, 7);
+        padding: 16px;
+        background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+    }
+
+    .proyecto img {
+
+
+        height: 212px;
+    }
+
+    .proyecto p {
+
+        font-size: 14px;
+        height: 130px;
+
+    }
+
+    .proyecto {
+
+        background-color: white;
+    }
+
+    .link-rojo {
+
+        text-decoration: none;
+
+        color: rgb(125, 7, 7);
+    }
+
+    footer a {
+        color: #E20000;
+    }
+
+    footer {
+        color: #E20000;
+
+    }
+
+    footer a i {
+
+        font-size: 25px;
+        color: #f8f4f4;
+        background-color: #E20000;
+        ;
+        border-radius: 80px;
+        text-align: center;
+        padding: 8px 0 0 0;
+        margin: 0 8px;
+        width: 38px;
+        height: 38px;
+    }
+
+
+    .logo {
+        position: fixed;
+        right: 50px;
+        bottom: 0px;
+        background-color: #E20000;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+    .logo i {
+
+        color: #f8f4f4;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:750px) {
+
+    #proyectos {
+        background-image: url("../imagenes/fondo-proyectos.png");
+        background-size: contain;
+    }
+
+    #contacto #index {
+        background-image: url("../imagenes/fondo-proyectos.png");
+
+        background-size: contain;
+
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+
+#index {
+
+    background-image: url("../imagenes/fondo-contacto.png");
+
+    background-size: cover;
+
+
+
+    .CV{
+        background-color: #E20000;
+        padding: 7px;
+        border-radius: 12px;
+    }
+    .CV a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .CV:hover{
+
+        background-color: #f8f4f4;
+    }
+    
+    .active{
+        border-radius: 18px;
+        border: #E20000 1px solid;
+        
+    }
+
+    
+    img {
+        height: 400px;
+    }
+
+    img:hover {
+        height: 410px;
+    }
+
+    .cohete {
+
+        height: 410px;
+    }
+
+    p {
+        color: white;
+        border: 1px solid white;
+        font-weight: 600;
+        border-radius: 20px;
+        font-size: 17px;
+
+    }
+
+    footer a {
+        color: #f8f4f4;
+    }
+
+    footer {
+        color: #f8f4f4;
+       
+    }
+
+    footer a i {
+
+        font-size: 25px;
+        color: #E20000;
+        background-color: #f8f4f4;
+        border-radius: 80px;
+        text-align: center;
+        padding: 8px 0 0 0;
+        margin: 0 8px;
+        width: 38px;
+        height: 38px;
+        
+    }
+
+
+    .logo {
+        position: fixed;
+        right: 50px;
+        bottom: 0px;
+        background-color: #f8f4f4;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+    .logo i {
+
+        color: #E20000;
+        font-size: 30px;
+
+
+    }
+
+    .btn {
+        color: white;
+        background-color: #E20000;
+        border: 1px;
+        
+    }
+
+    .btn:hover {
+        color: #E20000;
+        background-color: white;
+    }
+}
