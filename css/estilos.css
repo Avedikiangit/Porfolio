@@ -436,14 +436,24 @@ body {
         color: #E20000;
     }
 
-    
+    #experiencia h2{
+        font-size: 30px;
 
+        color: #E20000;
 
+        font-weight: 400;
+    }
 
-
-
-
-
+    .foto-perfil {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      
+     
+      
 
 
 }
