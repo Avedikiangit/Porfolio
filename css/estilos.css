@@ -450,10 +450,32 @@ body {
         object-fit: cover;
         border-radius: 50%;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      }
+    }
+    
+    
+   
       
-     
-      
+    #experiencia h3{
 
+        color: #6a6a6a;
+
+        font-size: 1opx;
+
+        font-weight: 600;
+    
+    }
+
+    #experiencia h4{
+        font-size: 17px;
+        color: #E20000;
+        font-weight: 400;        
+    }
+
+    #experiencia h5{
+
+        font-size: 14px;
+        color: #6a6a6a;
+        
+    }
 
 }
