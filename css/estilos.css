@@ -478,4 +478,50 @@ body {
         
     }
 
+    #idiomas {
+        background-color: #f0f0f0; /* Fondo gris claro */
+        padding: 40px 0;
+      }
+      
+      .card-idioma {
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+      }
+      
+      .card-idioma .card {
+        background-color: #36006a; /* Violeta oscuro */
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px 0 0 15px;
+        font-size: 50px;
+        height: 100%;
+        padding: 40px 0;
+      }
+      
+      .card-idioma h2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      
+      .card-idioma ul {
+        padding-left: 18px;
+        margin: 0;
+      }
+      
+      .card-idioma li {
+        list-style-type: none;
+        margin-bottom: 5px;
+        font-size: 14px;
+      }
+      
+      .shadow {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+
 }
