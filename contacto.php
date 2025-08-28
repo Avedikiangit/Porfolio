@@ -1,6 +1,31 @@
 
 <?php 
   $pg = "contacto";
+
+
+  if($_POST){
+    $nombre =$_POST["txtNombre"];
+    $correo =$_POST["txtCorreo"];
+    $telefono =$_POST["txtTelefono"];
+    $mensaje =$_POST["txtMensaje"];
+
+    $para="paqui22379@gmail.com";
+    $titulo="recibiste un mensaje desde tu web";
+
+    $cuerpo="
+    nombre: $nombre <br>
+    correo:$correo <br>
+    telefono:$telefono <br>
+    mensaje: $mensaje <br>
+    ";
+
+    $cabeceras = 'MIME-Version: 1.0' . "\r\n";
+   
+     $cabeceras .= 'Content.type: text/html; charset=UFT-8' .  "\r\n";
+
+     header("Location: envio.php");
+  }
+
   ?>
 
 <!DOCTYPE html>
